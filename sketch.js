@@ -43,6 +43,7 @@ function mouseReleased(){
 
 
 function draw() {
+	background("0");
 	if (keyIsPressed === true) {
 		chain.attach();
 	  }
